@@ -89,6 +89,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: .25rem;
+  color:rgb(23, 11, 254);
+  background-color: white;
 }
 
 .login-form > input {
