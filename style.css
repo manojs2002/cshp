@@ -100,6 +100,78 @@ body {
   margin: 0;
 }
 
+/* Style the dropdown button
+.dropbtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the dropdown container */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px; /* Add rounded corners */
+  width: 200px; /* Set a fixed width for the dropdown */
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown content when hovering over the button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the card body within the dropdown */
+.card-body {
+  padding: 0; /* Remove default padding */
+  border-top: 1px solid #ccc; /* Add a border at the top */
+}
+
+/* Style the card text within the dropdown */
+.card-text {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Style the dropdown-links within the card text */
+.dropdown-links {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Change color on hover for dropdown-links */
+.dropdown-links:hover {
+  background-color: #5909fb;
+  color:white;
+}
+
+.carousel-item {
+  font-size: 40px;
+  line-height: 60px;
+  color: #FFFFFF;
+  font-family: Roboto-Thin;
+  margin-bottom: 34px;
+  margin-top: 18px;
+}
 .header {
   background-color: #F3F3F3;
   display: flex;
@@ -120,9 +192,7 @@ body {
 }
 
 .dropdown.active > .link,
-.link:hover {
-  color: black;
-}
+
 
 .dropdown {
   position: relative;
@@ -162,8 +232,10 @@ body {
 }
 
 .link:hover {
-  background-color: #e0e0e0;
+  background-color: #081cf1;
+  color:white
 }
+
 /* Card container styles */
 .card-container {
   display: flex;
@@ -186,7 +258,7 @@ body {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: #061afc;
   color: white;
   border: none;
   size-adjust: auto;
@@ -225,9 +297,58 @@ body {
 .dropdown:hover .dropdown-content  {display: block;}
 .dropdown:hover .disapper {display: block;}
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41; }
+.dropdown:hover .dropbtn {background-color: #060606; }
 
 .manoj{
   color:Black
   
+} */
+
+/* Style the dropdown button */
+.col-md-4.dropdown .dropbtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the dropdown container */
+.col-md-4.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px; /* Add rounded corners */
+  width: 200px; /* Set a fixed width for the dropdown */
+}
+
+/* Style the dropdown links */
+.col-md-4.dropdown .dropdown-content .dropdown-links {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Change color on hover */
+.col-md-4.dropdown .dropdown-content .dropdown-links:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown content when hovering over the button */
+.col-md-4.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the card body within the dropdown */
+.col-md-4.dropdown .card-body {
+  padding: 0; /* Remove default padding */
+  border-top: 1px solid #ccc; /* Add a border at the top */
+}
+
+/* Style the card text within the dropdown */
+.col-md-4.dropdown .card-text {
+  margin: 0;
+  padding: 10px;
 }
